@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>AQ12New ProjectF34.mkv1.jpg</filename>
+	<path>/home/vahid/Documents/Tensorflow/workspace/fish_movement_tracking/images/test/AQ12New ProjectF34.mkv1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fish</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>382</xmin>
+			<ymin>419</ymin>
+			<xmax>464</xmax>
+			<ymax>447</ymax>
+		</bndbox>
+	</object>
+</annotation>
