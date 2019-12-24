@@ -177,10 +177,12 @@ def tracking(vid, name, path_to):
                     print(position, pass_, timestamp_)
                     timestamp = timestamp_
                     previous = position
+                else:
+                    count += 1
 
             else:
                 count += 1
-                timestamp = vid.get(cv2.CAP_PROP_POS_MSEC)
+                #timestamp = vid.get(cv2.CAP_PROP_POS_MSEC)
         else:
             break
     vid.release()
